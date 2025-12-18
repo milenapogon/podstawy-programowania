@@ -1,6 +1,6 @@
 while True:
-    print("\n=== MENU ===")
-    print("1. Prosty kalkulator")
+    print("\n MENU ")
+    print("1. Kalkulator")
     print("0. Wyjście")
 
     wybor = input("Wybierz opcję: ")
@@ -10,7 +10,7 @@ while True:
 
         a = float(input("Podaj pierwszą liczbę: "))
         b = float(input("Podaj drugą liczbę: "))
-        op = input("Operacja (+, -, *, /): ")
+        op = input("Wybierz: +, -, *, /: ")
 
         if op == "+":
             print("Wynik:", a + b)
@@ -29,5 +29,6 @@ while True:
     elif wybor == "0":
         print("Koniec programu")
         break
+
     else:
         print("Nieprawidłowy wybór")
